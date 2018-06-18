@@ -40,3 +40,7 @@ padding: 3px 10px !important;
 
 height:24px !important;
 }
+
+#wrapper #content .postlist .forumpanel {
+ border-bottom:none!important;
+}
