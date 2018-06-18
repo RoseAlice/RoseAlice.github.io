@@ -1,0 +1,24 @@
+.background-image {
+background-image:none !important;
+}
+.postblock-read .postinner > .postuser .background-image::after {
+background:none;
+}
+
+.has-background-image {
+background:none !important;
+}
+
+.postinner {
+background:url(https://facepunch.com/fp/postbitback_old.png) repeat-y #fff !important;
+}
+
+.postrender .postinner > .postuser {
+border-right:0 !important;
+}
+
+.postcontent {
+font-family: Tahoma,Helvetica,Arial,Verdana !important;
+font-size:10pt !important;
+background:none !important
+}
