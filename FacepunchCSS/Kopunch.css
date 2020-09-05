@@ -1,0 +1,443 @@
+.header, .content-inner {
+    margin: 0 16px;
+}
+
+.header {
+    margin-top:2px;
+    box-shadow: 0px 0px 5px #999999;
+    border: 1px solid #888;
+    margin-bottom:10px;
+}
+
+.content-inner {
+    margin-top:5px;
+}
+
+.category-title {
+    background: #26f url("https://rosealice.github.io/FacepunchCSS/newbtn_middle.png") repeat-x;
+    border-bottom: 1px solid #888;
+}
+
+.table-left, .table-right {
+    border: 1px solid #888;
+}
+
+.new-thread {
+    background: #26f url("https://rosealice.github.io/FacepunchCSS/newbtn_middle.png") repeat-x left top;
+    border-radius: 10px;
+    padding: 5px 15px 5px 15px;
+}
+
+.forum-above + table {
+   box-shadow: 0px 0px 5px #999999;
+   border: 1px solid #888;
+}
+
+thead .small {
+    background: #26f url("https://rosealice.github.io/FacepunchCSS/newbtn_middle.png") repeat-x left top;
+}
+
+.thread-head {
+    background: url("https://rosealice.github.io/FacepunchCSS/newbtn_middle.png") repeat-x scroll 0 0 #2266ff;
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+}
+
+.pagination span:first-of-type {
+    background: url("https://rosealice.github.io/FacepunchCSS/newbtn_middle.png") repeat-x scroll 0 0 #2266ff;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #666;
+}
+
+.pagination span:last-of-type {
+    border-radius: 0 5px 5px 0;
+}
+
+
+.foot {
+    border-top-left-radius:0;
+    border-top-right-radius:0;
+    border-bottom-left-radius:3px;
+    border-bottom-right-radius:3px;
+}
+
+.thread-advert {
+   box-shadow: 0px 0px 5px #999999;
+   border: 1px solid #888;
+}
+
+/* CATEGORY ICONS */
+
+/* General Discussion */
+.table-left tbody tr:nth-child(1) .subforum-info {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/gd.png") !important;
+    background-size:24px;
+    background-position: 12px center;
+}
+
+/* Gaming */
+.table-left tbody tr:nth-child(2) .subforum-info {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/game.png") !important;
+    background-size:24px;
+    background-position: 12px center;
+}
+
+/* Progress Report */
+.table-left tbody tr:nth-child(3) .subforum-info {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/progress.png") !important;
+    background-size:24px;
+    background-position: 12px center;
+}
+
+/* News */
+.table-left tbody tr:nth-child(4) .subforum-info {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/news.png") !important;
+    background-size:24px;
+    background-position: 12px center;
+}
+
+/* Hardware & Software */
+.table-left tbody tr:nth-child(5) .subforum-info {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/hw.png") !important;
+    background-size:24px;
+    background-position: 12px center;
+}
+
+/* Meta */
+.table-left tbody tr:nth-child(6) .subforum-info {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/meta.png") !important;
+    background-size:24px;
+    background-position: 12px center;
+}
+
+/* Facepunch Games */
+.table-left tbody tr:nth-child(7) .subforum-info {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/gmod.png") !important;
+    background-size:24px;
+    background-position: 12px center;
+}
+
+/* Videos */
+.table-right tbody tr:nth-child(1) .subforum-info {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/videos.png") !important;
+    background-size:24px;
+    background-position: 12px center;
+}
+
+/* Gaming Megathreads */
+.table-right tbody tr:nth-child(2) .subforum-info {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/gamemega.png") !important;
+    background-size:24px;
+    background-position: 12px center;
+}
+
+/* Creativity and Art */
+.table-right tbody tr:nth-child(3) .subforum-info {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/creativity.png") !important;
+    background-size:24px;
+    background-position: 12px center;
+}
+
+/* Politics */
+.table-right tbody tr:nth-child(4) .subforum-info {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/politicks.png") !important;
+    background-size:24px;
+    background-position: 12px center;
+}
+
+/* Film, Television and Music */
+.table-right tbody tr:nth-child(5) .subforum-info {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/tv.png") !important;
+    background-size:24px;
+    background-position: 12px center;
+}
+
+/* Developers */
+.table-right tbody tr:nth-child(6) .subforum-info {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/dev.png") !important;
+    background-size:24px;
+    background-position: 12px center;
+}
+
+/* Source */
+.table-right tbody tr:nth-child(7) .subforum-info {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/source.png") !important;
+    background-size:24px;
+    background-position: 12px center;
+}
+
+/* THREAD ICONS */
+
+/* Locked */
+
+.locked > .thread-icon > div {
+    background-size:initial;
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/locked.gif") !important;
+}
+
+.locked > .thread-icon > div * {
+    display:none;
+}
+
+/* Rant */
+
+.thread-icon-custom[title="Rant"] {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/rant.gif") !important;
+}
+
+/* News */
+
+.thread-icon-custom[title="News"] {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/news_2.png") !important;
+}
+
+/* Announcement */
+
+.thread-icon-custom[title="Announcement"] {
+    background-position:center;
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/garry.gif") !important;
+}
+
+/* Computers */
+
+.thread-icon-custom[title="Computers"] {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/computers.gif") !important;
+}
+
+/* NSFW */
+
+.thread-icon-custom[title="Nsfw"] {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/nsfw_2.png") !important;
+}
+
+/* Repeat */
+
+.thread-icon-custom[title="Repeat"] {
+    /* up is older-style, down is from when fp tried to unify the style of post icons.
+       uncomment as your preference dictates. */
+    /*background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/repeat2.png") !important;*/
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/repeat2.png") !important;
+}
+
+/* Chat */
+
+.thread-icon-custom[title="Chat"] {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/chat.png") !important;
+}
+
+/* Post your */
+
+.thread-icon-custom[title="Postyour"] {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/postyour.png") !important;
+}
+
+/* Nintendo */
+
+.thread-icon-custom[title="Nintendo"] {
+    /* Wii ver 1 */
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/wii.png") !important;
+    /* Wii ver 2 */
+    /*background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/wii2.jpg") !important;*/
+    /* Wii U */
+    /*background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/wiiu.png") !important;*/
+    /* Switch */
+    /*background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/nswitch.png") !important;*/
+}
+
+/* Valve */
+
+.thread-icon-custom[title="Valve"] {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/valve.png") !important;
+}
+
+/* Stupid */
+
+.thread-icon-custom[title="Stupid"] {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/stupid.gif") !important;
+}
+
+/* Games */
+
+.thread-icon-custom[title="Gaems"], .thread-icon-custom[title="Games"] {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/games.png") !important;
+}
+
+/* CPP */
+
+.thread-icon-custom[title="Cpp"] {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/cpp.png") !important;
+}
+
+/* Art */
+
+.thread-icon-custom[title="Art"] {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/art.png") !important;
+}
+
+/* Request */
+
+.thread-icon-custom[title="Request"] {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/request.png") !important;
+}
+
+/* Release */
+
+.thread-icon-custom[title="Release"] {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/release.png") !important;
+}
+
+/* Humor */
+
+.thread-icon-custom[title="Humor"] {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/humor.png") !important;
+}
+
+/* School */
+
+.thread-icon-custom[title="School"] {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/school.gif") !important;
+}
+
+/* Question */
+
+.thread-icon-custom[title="Question"] {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/question.png") !important;
+}
+
+/* TV */
+
+.thread-icon-custom[title="Tv"] {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/tv.gif") !important;
+}
+
+/* Gross */
+
+.thread-icon-custom[title="Gross"] {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/gross.png") !important;
+}
+
+/* E/N */
+
+.thread-icon-custom[title="Everything/nothing"] {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/en.gif") !important;
+}
+
+/* Love */
+
+.thread-icon-custom[title="Heart"] {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/love.png") !important;
+}
+
+/* Help */
+
+.thread-icon-custom[title="Help"] {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/help.gif") !important;
+}
+
+/* HTML */
+
+.thread-icon-custom[title="Html"] {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/html.png") !important;
+}
+
+/* Link */
+
+.thread-icon-custom[title="Link"] {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/link.gif") !important;
+}
+
+/* LUA */
+
+.thread-icon-custom[title="Lua"] {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/lua.gif") !important;
+}
+
+/* Map */
+
+.thread-icon-custom[title="Map"] {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/map.jpg") !important;
+}
+
+/* Microsoft */
+
+.thread-icon-custom[title="Microsoft"] {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/xbox360.png") !important;
+}
+
+/* Money */
+
+.thread-icon-custom[title="Money"] {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/earn.gif") !important;
+}
+
+/* Movies */
+
+.thread-icon-custom[title="Movies"] {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/movies.gif") !important;
+}
+
+/* Music */
+
+.thread-icon-custom[title="Music"] {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/music.png") !important;
+}
+
+/* PC Games */
+
+.thread-icon-custom[title="Pc"] {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/pcgames.png") !important;
+}
+
+/* Photos */
+
+.thread-icon-custom[title="Photos"] {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/photos.png") !important;
+}
+
+/* Photoshop */
+
+.thread-icon-custom[title="Photoshop"] {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/photoshop.gif") !important;
+}
+
+/* PHP */
+
+.thread-icon-custom[title="Php"] {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/php.png") !important;
+}
+
+/* Politics */
+
+.thread-icon-custom[title="Politics"] {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/politics.gif") !important;
+}
+
+/* Science */
+
+.thread-icon-custom[title="Science"] {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/science.png") !important;
+}
+
+/* Shitpost */
+
+.thread-icon-custom[title="Shitpost"] {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/shitpost.png") !important;
+}
+
+/* Sony */
+
+.thread-icon-custom[title="Sony"] {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/ps3.png") !important;
+}
+
+/* Guide/Tutorial */
+
+.thread-icon-custom[title="Tutorial"] {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/tutorial.png") !important;
+}
+
+/* WIP */
+
+.thread-icon-custom[title="Wip"] {
+    background-image:url("https://rosealice.github.io/FacepunchCSS/ThreadIcons/wip.png") !important;
+}
