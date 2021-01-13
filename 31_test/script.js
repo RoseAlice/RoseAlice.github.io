@@ -4,7 +4,7 @@
 window.onload = function() {
 
   // Put the location of the images here!
-  var Prefix = "/Images/Homestuck/31/";
+  var Prefix = "";
 
   /* LINKS */
   var BQLink = "https://homestuck.com/bard-quest";
