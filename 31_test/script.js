@@ -4,7 +4,7 @@
 window.onload = function() {
 
   // Put the location of the images here!
-  var Prefix = "";
+  var Prefix = "https://rosealice.github.io/31_test/";
 
   /* LINKS */
   var BQLink = "https://homestuck.com/bard-quest";
